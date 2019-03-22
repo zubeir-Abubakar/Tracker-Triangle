@@ -5,8 +5,13 @@ h1{
     font-family: inherit;
 }
 h2{
-    color: yellow;
-    text-align: center;
+    color: rgb(189, 12, 21);
+    text-align: left;
     font-style: italic;
     font-family: fantasy;
+}
+h3{
+    color:red;
+    font-style: italic;
+    font-family: fantasy
 }
