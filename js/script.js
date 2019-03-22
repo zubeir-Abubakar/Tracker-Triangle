@@ -1,14 +1,14 @@
-function(){
-var measurement1 = prompt("write measurement for side 1")
-var measurement2 = prompt("write measurement for side  2")
-var measurement3 = prompt("write measurement for side  3")
+function submit(){
+var measurement1 = parseInt(document.getElementById("measurement 1").value);
+var measurement2 = parseInt(document.getElementById("measurement 2").value);
+var measurement3 = parseInt(document.getElementById("measurement 3").value);
 if (measurement3 >= (measurement1 + measurement2)) {
-    alert("this  triangle can't be formed")
+    alert("this  triangle can't be formed");
 }
-else if (measurement1 == measurement2 && measurement2 == measurement3 && measurement3 == measurement1 && measurement1 == measurement3) {
+else if (measurement1 === measurement2 && measurement2 === measurement3 && measurement3 === measurement1 && measurement1 === measurement3) {
     alert("this is an equilatral triangle");
 }
-else if (measurement1 == measurement2 && measurement2 !== measurement3 || measurement1 == measurement3 && measurement1 !== measurement2 || measurement2 == measurement3 && measurement1 !== measurement3) {
+else if (measurement1 === measurement2 && measurement2 !=== measurement3 || measurement1 === measurement3 && measurement1 !=== measurement2 || measurement2 === measurement3 && measurement1 !=== measurement3) {
     alert("this an isoscles triangle");
 }
 else if (measurement1 < (measurement2 + measurement3) || measurement2 < (measurement1 + measurement3) || measurement3 < (measurement1 + measurement2)) {
@@ -17,4 +17,4 @@ else if (measurement1 < (measurement2 + measurement3) || measurement2 < (measure
 else {
     alert("error");
 }
-};
+}

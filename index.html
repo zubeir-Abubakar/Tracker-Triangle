@@ -3,8 +3,8 @@
     <head>
         <body background="./wall.jpeg">
         <link rel="stylesheet" href="css/style.css"styles="text/css"meadiall="text/css">
-        <script><link rel="js/script.js"></script>
-        <tittle style="color: ghostwhite;">TRIANGLE TRACKER</tittle>
+        <script src="js/script.js"></script>
+        <tittle style="color: violet;">TRIANGLE TRACKER</tittle>
     </head>
         <h1 align="center" > TRIANGLE-TRACKER</h1>
         <h2>WHAT'S A TRIANGLE??</h2>
@@ -24,12 +24,12 @@
         </ul>
         <div>
             <label for="measurement 1">write measurement 1</label>
-            <input type="number" name="measurement" value=""><br><br><br>
+            <input type="number" min="1" id="measurement 1"><br><br><br>
             <label for="measurement 2">write measurement 2</label>
-            <input type="number" name="measurement" value=""><br><br><br>
+            <input type="number" min="1" id="measurement 2"><br><br><br>
             <label for="measurement 3">write measurement 3</label>
-            <input type="number" name="measurement" value=""><br><br><br>
-            <button type="button" id="function" name="button">submit</button>
+            <input type="number" min="1" id="measurement 3"><br><br><br>
+            <button onclick="submit()">submit</button>
             <button type="button"  name="button">reset </button>
             </div>
     </body>
