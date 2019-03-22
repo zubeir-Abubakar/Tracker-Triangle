@@ -2,7 +2,7 @@ function submit(){
     var measurement1 = parseInt(document.getElementById("measurement 1").value);
     var measurement2 = parseInt(document.getElementById("measurement 2").value);
     var measurement3 = parseInt(document.getElementById("measurement 3").value);
-    if (measurement3 >==(measurement1 + measurement2)) {
+    if (measurement3 >=(measurement1 + measurement2)) {
         alert("this  triangle can't be formed");
     }
     else if (measurement1 === measurement2 && measurement2 === measurement3 && measurement3 === measurement1 && measurement1 === measurement3) {
@@ -15,7 +15,7 @@ else if (measurement1 < (measurement2 + measurement3) || measurement2 < (measure
         alert("this is a scalene triangle");
     }
     else {
-        alert("error";
+        alert("error");
     }
 }
 
