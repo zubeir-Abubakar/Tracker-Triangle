@@ -17,4 +17,4 @@ else if (measurement1 < (measurement2 + measurement3) || measurement2 < (measure
 else {
     alert("error");
 }
-}
+};
