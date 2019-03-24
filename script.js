@@ -1,4 +1,4 @@
-function submit(){
+function tracker(){
     var measurement1 = parseInt(document.getElementById("measurement 1").value);
     var measurement2 = parseInt(document.getElementById("measurement 2").value);
     var measurement3 = parseInt(document.getElementById("measurement 3").value);
