@@ -23,5 +23,7 @@ li{
 }
 body{
     font-size: larger;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
