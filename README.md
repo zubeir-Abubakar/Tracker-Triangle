@@ -1,8 +1,8 @@
 # Tracker-Triangle
 The above project is used to track triangles and let you know which type of triangle it is ,either isosceles or equilateral or scalene or even if its going to be formed or can't be formed . published {24th march ,2019}
-###by{zubeir-Abubakar}.
+##by{zubeir-Abubakar}.
 
-####Requirements
+###Requirements
 
 -a proper network connection
 
@@ -39,6 +39,8 @@ Built With
 Support and contact details
 incase you run into any issues feel free to contact me through this number [0743046778]or make any changes using the visual studio code .
 License
-{MIT}
+**{MIT}**
 Copyright (c) {year=2019} {zubeir-Abubakar}
 licensed under the MIT
+
+###Tracker-Tracker
