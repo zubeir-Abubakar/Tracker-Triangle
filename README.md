@@ -8,7 +8,7 @@ The above project is used to track triangles and let you know which type of tria
 
 -a safe and secure browsing site
 
--my link ()
+-my link (https://zubeir-abubakar.github.io/Tracker-Triangle/)
 
 Deployment
 
