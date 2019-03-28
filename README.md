@@ -16,7 +16,7 @@ Enter the link into the url interface and click the prompt. it will get you your
 Built With
 -visual studio code(VS CODE)
 ## BDD
-|BEHAVIOUR                         INPUT                                        | OUTPUT
+|BEHAVIOUR                         |    INPUT                                    |  OUTPUT
 |---------------------------------:|--------------------------------------------:|-----------------------
 | all sides equal | side a == side b && side b == side c  && side a == side c | equilaterl triangle|
 |two sides of the triangle are equal | side a==side b && side b! == side c | isoceless |
