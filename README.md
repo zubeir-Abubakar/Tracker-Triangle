@@ -8,7 +8,7 @@ The above project is used to track triangles and let you know which type of tria
 
 -a safe and secure browsing site
 
--my link (https://zubeir-abubakar.github.io/Tracker-Triangle/)
+- and lastly the link to the project(https://zubeir-abubakar.github.io/Tracker-Triangle/)
 
 ## Deployment
 
@@ -16,12 +16,14 @@ Enter the link into the url interface and click the prompt. it will get you your
 Built With
 -visual studio code(VS CODE)
 ## BDD
-|BEHAVIOUR                         |    INPUT                                    |  OUTPUT
+
+|                         BEHAVIOUR|                                        INPUT|        OUTPUT
 |---------------------------------:|--------------------------------------------:|-----------------------
-| all sides equal | side a == side b && side b == side c  && side a == side c | equilaterl triangle|
-|two sides of the triangle are equal | side a==side b && side b! == side c | isoceless |
-| all sides are unequal | side a!==side b && side b!==side c | scalene |
-## How it works.
+|all sides equal |side a == side b && side b == side c  && side a == side c | equilaterl triangle|
+|two sides of the triangle are equal |side a==side b && side b! == side c | isoceless |
+|all sides are unequal |side a!==side b && side b!==side c | scalene |
+
+## How to use it and how it works.
 1.	the triangle-triacker will ask you to entre the measurements of the three sides of your tiangle,
 
 --if all the sides are equal, it will alert you "this is an equilateral triangle" 
@@ -41,6 +43,4 @@ incase you run into any issues feel free to contact me through this number [0743
 License
 **{MIT}**
 Copyright (c) {year=2019} {zubeir-Abubakar}
-licensed under the MIT
-
-### Tracker-Tracker
+licensed under the *MIT*
