@@ -18,8 +18,8 @@ Built With
 -visual studio code(VS CODE)
 ## BDD
 
-|           BEHAVIOUR    |           INPUT               |        OUTPUT
-|-----------------------:|------------------------------:|-----------------------
+|  BEHAVIOUR       | INPUT          |        OUTPUT
+|-----------------:|---------------:|-----------------------
 |all sides equal |side a == side b && side b == side c  && side a == side c | equilaterl triangle|
 |two sides of the triangle are equal |side a==side b && side b! == side c | isoceless |
 |all sides are unequal |side a!==side b && side b!==side c | scalene |
